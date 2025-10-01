@@ -1,0 +1,6 @@
+x1=float(input("masukkan angka x1: "))
+x2=float(input("masukkan angka x2: "))
+y1=float(input("masukkan angka y1: "))
+y2=float(input("masukkan angka y2: "))
+jarak=(((x2-x1)**2+(y2-y1)**2)** 0.5)
+print(f"jarak antara({x1},{y1}) dan ({x2},{y2}) adalah:{jarak:}")
